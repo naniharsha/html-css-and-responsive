@@ -1,0 +1,225 @@
+*{box-sizing:border-box;
+   padding:0px;}
+html{background-image: url(http://www.viratkohli.website/wp-content/uploads/2016/11/HD-image-Virat-Kohli-star-sports.jpg);
+background-size: contain;
+background-attachment: fixed;}
+.nodis{display: none;}
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+header{background-color:rgba(0,0,0,0.5);
+      color:azure;
+font-family: 'Audiowide', cursive;}
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+body
+{
+font-family: 'Overlock', cursive;    
+}
+
+[class*="mo-"]{
+    width:100%;
+    float:left;
+    margin:0;
+}
+.worldcup{background-color: blue;
+color:black;
+text-align: center;}
+.cupimage img{background-size: cover;
+              width:100%;
+               height:400px;}
+.hr:after{content: "";
+clear: both;
+display: block;}
+.hp img{height:15em;
+padding:5%;
+float:right;}
+footer{background-color:rgba(0,0,0,0.5);
+       color:azure;
+text-align: center;
+padding:2%;
+margin-top: 1%;}
+ul,li,nav{margin: 0;
+padding: 0;
+border: 0;}
+li img{float:right;
+        display:none;
+        width:auto;}
+.button{
+    background-color:coral;
+    color:black;
+    padding: 5%;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.mobilenav{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 40%;
+}
+.button-in{
+    display: none;
+    position: absolute;
+    background-color:rgba(192,192,192,0.6);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+ .button-in a{
+    color:cornflowerblue;
+    text-decoration: none;
+    display: block;
+    padding:12px 16px;
+}
+.button-in a:hover{background-color:rgba(0,0,0,0.7);}
+.mobilenav:hover .button-in{
+    display: block;
+}
+.mobilenav:hover .button{
+    background-color:rgba(0,0,0,0.4);
+}
+.mobilenav{text-align: center;
+    background-color:aquamarine;}
+.tabletview ul{width:80%;
+background-color: rgba(128,128,0,0.6);
+padding: 1%;
+align-content: center;
+text-align: center;
+border: 2px solid black;
+color: black;
+display: inline-block;}
+.tabletview ul li{display: inline-block;
+position: relative;
+border: 1px solid black;
+padding-right: 10%;
+padding-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+float: left;}
+.tabletview li ul{display: none;}
+.tabletview ul li a:hover{background-color: rgba(0,255,255,0.5);}
+.tabletview li:hover ul{display: block;
+position: absolute;}
+.tabletview li:hover li{float: none;}
+.tabletview li:hover a{background-color:rgba(128,128,128,0);}
+.tabletview li:hover li a:hover{background: rgba(0,0,255,0.5);}
+.tabletview li ul li{border-top: 0px;}
+.desknav ul{width:100%;
+ background-color:rgba(0,255,0,0.6);
+    padding:1%;
+    align-content: center;
+    text-align: center;
+    border:solid black 2px;
+color:darkslateblue;
+display: inline-block;}
+ .desknav ul li{display:inline-block;
+position:relative;
+    border: solid black 2px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-left: 5%;
+float: left;
+}
+ .desknav li ul{
+    display: none;
+}
+.desknav ul li a:hover{background:rgba(255,0,0,0.6);}
+ .desknav li:hover ul{display: block;
+position: absolute;}
+.desknav li:hover li{float: none;}
+.desknav li:hover a{background:rgba(255,0,0,0.5);}
+.desknav li:hover li a:hover{background:rgba(0,0,0,0.6) ;}
+.desknav li ul li{border-top: 0px;}
+.tabletview{display: none;}
+.vkarti{
+    background-color: rgba(0,128,128,0.8)
+}
+.vkin {height:40vh;
+    background-image: url(http://media.new.mensxp.com/media/content/2016/Jun/virat-kohli-earns-7-1-million-a-year-and-still-worries-about-going-bankrupt980-1465292872_980x457.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;}
+.mid{text-align: center;}
+.viratimg{overflow: auto;
+    background-color:rgba(255,0,0,0.5);}
+.moreinfo ul {list-style-type: none;}
+.score ul{list-style-type: none;}
+.viratimg img{width:80%;
+padding:0.5em;
+    float:left;
+    height:7em;
+margin-top: 2%;
+border-spacing: inherit;
+background-color:black;}
+.moreinfo{background-color:rgba(255,0,255,0.5);
+color:black;
+margin-top:1%;
+margin-bottom: 1%;}
+.moreinfo li{border:2px solid black;
+min-height:2em;
+    margin-top:1%;
+text-align: center;}
+.score{background-color:rgba(255,0,0,0.5);
+margin-top: 1%;
+margin-bottom: 1%;}
+.score ul li{
+border:solid black 2px;
+    min-height: 2em;
+margin-top: 1%;
+text-align: center;}
+.vkintro{background-color:rgba(0,0,255,0.4);
+margin-top: 2%;}
+.in{background-color:rgba(255,255,0,0.4);
+margin-top: 1em;}
+.in ul li{border: solid black 2px;
+         min-height: 3em;
+    overflow: auto;
+    text-align: left;
+    list-style-type: none;
+    background-color:rgba(0,0,255,0.4);
+    margin-bottom: 2%;}
+.semantictag{background-color:black;
+color:aliceblue;
+min-height: 4em;}
+.in ul li img{height:30vh;}
+/**Tablet View***/
+@media screen and (min-width:768px){
+    .mobilenav{display: none;}
+    .tabletview{display: block;}
+.mo-t-1{width:8.33%;}
+    .mo-t-2{width:16.66%;}
+    .mo-t-3{width:25%;}
+    .mo-t-4{width:33.33%;}
+    .mo-t-5{width:41.66%;}
+    .mo-t-6{width:50%;}
+    .mo-t-7{width:58.33%;}
+    .mo-t-8{width:66.66%;}
+    .mo-t-9{width:75%;}
+    .mo-t-10{width:83.33%;}
+    .mo-t-11{width:91.66%;}
+    .mo-t-12{width:100%;}
+}
+/**desktop View***/
+@media screen and (min-width:1024px){
+    body{width:90%;
+        max-width:1024px;
+margin:auto;         
+}
+    .tabletview{display: none;}
+    .moreinfo h4{display: none;}
+    .mobilenav .dis{display: none;}
+    .nodis{display: block;}
+    .button{display: none;}
+    .mo-1{width:8.33%;}
+    .mo-2{width:16.66%;}
+    .mo-3{width:25%;}
+    .mo-4{width:33.33%;}
+    .mo-5{width:41.66%;}
+    .mo-6{width:50%;}
+    .mo-7{width:58.33%;}
+    .mo-8{width:66.66%;}
+    .mo-9{width:75%;}
+    .mo-10{width:83.33%;}
+    .mo-11{width:91.66%;}
+    .mo-12{width:100%;}
+    li img {display:block;} 
+}
+    
